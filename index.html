@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/41b235465c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/poster.css">
+    <title>Task - Modal Window</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="movie-card">
+            <h2 class="movie-title">john wick (2014)</h2>
+            <p class="movie-genres">
+                <span class="movie-rating">R</span>  
+                10/24/2014 (US) Action, Thriller 
+                <span class="movie-duration">1h 41m</span>
+            </p>
+           
+            <div class="container_modal">
+                <img src="images/johwick2.jpeg" alt="John Wick Poster" class="movie-poster">
+         
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="closeBtn">&times;</span>
+                        <img alt="" class="movie-poster-modal">
+                        <h1>John Wick (2014)</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="movie-info-container">
+                <p class="movie-info-quote">Don't set him off.</p>
+
+                <h2 class="movie-info-overview-title">overview</h2>
+                <p class="movie-info-overview">Ex-hitman John Wick comes out of retirement to track down the gangsters that took everything from him.</p>
+
+                <div class="movie-info-actions">
+                    <ul>
+                        <li><a href="https://www.themoviedb.org/movie/245891-john-wick" target="-blank" class="add-fav"><i class="fas fa-heart"></i></a></li>
+                        <li><a href="https://www.themoviedb.org/movie/245891-john-wick" target="-blank" class="add-bookmark"><i class="fas fa-bookmark"></i></a></li>
+                        <li><a href="https://www.themoviedb.org/movie/245891-john-wick" target="-blank" class="rate-movie"><i class="fas fa-star-half-alt"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <h3>Find me to discuss the movie</h3>
+             
+            <ul>
+                <li> <a href="#">Twitter <i class="fab fa-twitter"></i></a></li>
+                <li> <a href="#">Instagram <i class="fab fa-instagram"></i></a> </li>
+                <li> <a href="#">Facebook <i class="fab fa-facebook"></i></a> </li>
+            </ul>
+    
+            <p>Reti Kalde &#169; 2022</p>
+    
+        </footer>
+
+
+    </div>
+ 
+    <script src="scripts/app.js"></script>
+</body>
+</html>
